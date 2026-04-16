@@ -1,5 +1,4 @@
 {
-  "buildCommand": "cd artifacts/portfolio && npm install --legacy-peer-deps && npm run build",
-  "outputDirectory": "artifacts/portfolio/dist",
-  "devCommand": "cd artifacts/portfolio && npm run dev"
+  "buildCommand": "npm install --legacy-peer-deps && npm run build",
+  "outputDirectory": "dist"
 }
