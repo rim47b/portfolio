@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import { data } from "@/data";
 import { CheckCircle2 } from "lucide-react";
-import profilePhoto from "@assets/Gemini_Generated_Image_uxw6cjuxw6cjuxw6_1776021612249.png";
+
+const profilePhoto = "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop";
 
 export function About() {
   return (
